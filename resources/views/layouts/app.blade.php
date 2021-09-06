@@ -209,10 +209,10 @@
             breakpoints: {
                 '375': {
                     slidesPerView: 1,
-                    spaceBetween: 3,
+                    spaceBetween: 1,
                     slidesPerGroup: 1
 
-                },
+                },  
                 '990': {
                     slidesPerView: 6,
                     spaceBetween: 10,
@@ -240,6 +240,7 @@
                 '375': {
                     slidesPerView: 1,
                     spaceBetween: 3,
+                    lidesPerGroup: 1,
                 },
                 '990': {
                     slidesPerView: 5,
