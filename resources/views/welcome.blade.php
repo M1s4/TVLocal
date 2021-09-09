@@ -180,7 +180,7 @@ carousel-->
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <!-- Swiper JS -->
-            <div class="swiper-container mySwiper">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card bg-transparent border-0">
@@ -281,7 +281,7 @@ carousel-->
         </div>
         <div class="tab-pane" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
             <!-- Swiper JS -->
-            <div class="swiper-container mySwiper-dos">
+            <div class="swiper mySwiper-dos">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card bg-transparent border-0">
@@ -382,7 +382,7 @@ carousel-->
         </div>
         <div class="tab-pane" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <!-- Swiper JS -->
-            <div class="swiper-container mySwiper-tres">
+            <div class="swiper mySwiper-tres">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card bg-transparent border-0">
@@ -492,7 +492,7 @@ carousel-->
 <!-- fin big banner-->
 
 <!-- inicio slider peliculas-->
-<div class="swiper-container peliculas-slider  mt-5 mb-5">
+<div class="swiper peliculas-slider  mt-5 mb-5">
     <div class="row d-flex align-items-center mx-4 mx-md-0">
         <div class="col-sm-4 text-left">
             <h4 class="font-weight-bolder text-white">PELICULAS DE LA SEMANA</h4>
@@ -603,126 +603,11 @@ carousel-->
 <!-- fin slider-->
 
 <!--big banner -->
-<div class="big-banner mx-auto mt-md-5 px-3">
+<div class="big-banner mx-auto my-md-5 px-3">
     <img src="{{ asset('images/banner/banner-full.png')}}" alt="" width="100%" height="120px" class="">
 </div>
 <!-- fin big banner-->
 
-<!-- inicio slider peliculas-->
-<div class="swiper-container peliculas-slider  mt-5 mb-5">
-    <div class="row d-flex align-items-center mx-4 mx-md-0">
-        <div class="col-sm-4 text-left">
-            <h4 class="font-weight-bolder text-white">PELICULAS DE LA SEMANA</h4>
-        </div>
-        <div class="col-sm  m-0 p-0">
-            <hr class="my-4 text-white w-100 border">
-        </div>
-        <div class="col-sm-2 text-center">
-            <button type="button" class="btn btn-outline-light btn-lg btn-vermas ">Ver Mas</button>
-        </div>
-    </div>
-    <div class="swiper-wrapper mt-4">
-        <div class="swiper-slide d-flex flex-column img-movie d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieUno.jpg')}}" alt="" width="245" height="320px" class="img-bg mx-auto">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieDos.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieTres.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieCuatro.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieCinco.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieUno.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieDos.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieTres.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieCuatro.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
-        <div class="swiper-slide d-flex flex-column img-movie">
-            <img src="{{ asset('images/peliculas/movieUno.jpg')}}" alt="" width="245" height="320px" class="img-bg">
-            <p class="text-white font-wirkSansSB nombre-movie position-absolute b-25 d-none">NOMBRE DE PELICULA
-                <a href="#" class="m-0 p-0">
-                    <img src="{{ asset('images/icons/iconPlay.png')}}" alt="" class="text-white iconPlay mt-2" width="20px" height="20px">
-                </a>
-            </p>
-        </div>
 
-
-    </div>
-    <div class="swiper-button-next icon-next">
-        <!-- fin slider
-
-            <img src="{{ asset('images/icons/prev-icon.png')}}" alt="">
-            -->
-    </div>
-    <div class="swiper-button-prev icon-prev">
-        <!-- fin slider
-            <img src="{{ asset('images/icons/next-icon.png')}}" alt="">
-            -->
-    </div>
-</div>
-<!-- fin slider-->
-
-<!--big banner -->
-<div class="big-banner mx-auto mt-md-5 px-3">
-    <img src="{{ asset('images/banner/banner-full.png')}}" alt="" width="100%" height="120px" class="">
-</div>
-<!-- fin big banner-->
 
 @endsection

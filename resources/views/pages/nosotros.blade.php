@@ -59,15 +59,15 @@
 </div>
 
 <div class="contentMision d-flex flex-nowrap justify-content-end bd-highlight mb-5 ml-7 mt-7" style="background-color:#F0F2F2;">
-  <div class="dataMision order-2 bd-highlight" style="background-color:crimson;">
-    <img src="{{ asset('images/sectionHistory.png')}}" alt="" width="100%" height="120%">
+  <div class="dataVision order-2 bd-highlight" style="background-color:crimson;">
+    <img src="{{ asset('images/sectionMision.jpg')}}" alt="" width="100%" height="120%">
   </div>
   <div class="imgMision order-1 p-2 bd-highlight ">
     <div class="d-flex justify-content-end ">
       <p class="title-section text-left bg-dark w-25 text-white h3 p-3 mt-4">Mision</p>
     </div>
     <div class=" d-flex justify-content-end content-data-Mision">
-      <P class="text-right w-75 h4 pt-4 pr-2 text-lowercase">
+      <P class="text-right w-md-100 h4 px-md-4 pr-2 text-lowercase">
         <small>
         Lorem Ipsum es simplemente el texto de relleno de las imprentas y
           archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
@@ -90,8 +90,8 @@
     <div class="d-flex justify-content-star ">
       <p class="title-sectionVision text-right bg-dark w-25 text-white h3 p-3 mt-4">Vision</p>
     </div>
-    <div class=" d-flex justify-content-star dataVision">
-      <P class="text-left w-75 h4 pt-4 pl-2 text-lowercase">
+    <div class=" d-flex justify-content-star ">
+      <P class="text-left w-100 h4 pt-4 px-4 pb-4 text-lowercase">
         <small>
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
           archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar

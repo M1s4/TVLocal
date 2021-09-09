@@ -208,11 +208,11 @@
         </div>
     </div>
 
-    <!--big banner -->
-    <div class="big-banner mx-auto  mb-5">
-        <img src="{{ asset('images/banner/banner-full.png')}}" alt="" width="auto" height="120px" class="w-100">
-    </div>
-    <!-- fin big banner-->
+<!--big banner -->
+<div class="big-banner mx-auto my-md-5 px-3">
+    <img src="{{ asset('images/banner/banner-full.png')}}" alt="" width="100%" height="120px" class="">
+</div>
+<!-- fin big banner--> 
 
 </div>
 
@@ -239,5 +239,7 @@
         </div>
     </div>
 </div>
+
+
 
 @endsection

@@ -34,7 +34,7 @@
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <!-- Swiper JS -->
-            <div class="swiper-container mySwiper">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card bg-transparent border-0">
@@ -135,7 +135,7 @@
         </div>
         <div class="tab-pane" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
             <!-- Swiper JS -->
-            <div class="swiper-container mySwiper-dos">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card bg-transparent border-0">
@@ -236,7 +236,7 @@
         </div>
         <div class="tab-pane" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <!-- Swiper JS -->
-            <div class="swiper-container mySwiper-tres">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card bg-transparent border-0">
@@ -340,13 +340,13 @@
 <!-- fin Swiper -->
 
 <!--big banner -->
-<div class="big-banner mx-auto mt-md-5 px-3">
+<div class="big-banner mx-auto my-md-5 px-3">
     <img src="{{ asset('images/banner/banner-full.png')}}" alt="" width="100%" height="120px" class="">
 </div>
 <!-- fin big banner-->
 
 <!-- inicio slider peliculas-->
-<div class="swiper-container peliculas-slider  mt-5 mb-5">
+<div class="swiper peliculas-slider  mt-5 mb-5">
     <div class="row d-flex align-items-center mx-4 mx-md-0">
         <div class="col-sm-4 text-left">
             <h4 class="font-weight-bolder text-white">PELICULAS DE LA SEMANA</h4>
@@ -457,7 +457,7 @@
 <!-- fin slider-->
 
 <!--big banner -->
-<div class="big-banner mx-auto mt-md-5 px-3">
+<div class="big-banner mx-auto my-md-5 px-3">
     <img src="{{ asset('images/banner/banner-full.png')}}" alt="" width="100%" height="120px" class="">
 </div>
 <!-- fin big banner-->

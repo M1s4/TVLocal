@@ -304,6 +304,7 @@ body {
     }
     .dataVision {
         margin-bottom: 15px;
+        display: none;
     }
 
     .content-horario {
@@ -421,6 +422,8 @@ body {
     .swiper-slide {
         background: transparent !important;
     }
+
+    
 
     /*quitar el bottom bullets del slider*/
     .swiper-container-horizontal>.swiper-pagination-bullets,
@@ -875,8 +878,15 @@ body {
 
     .dataMision {
 
-        width: 120%;
+        width: 180%;
 
+    }
+
+    .dataVision {
+        width: 180%;
+    }
+    .dataVision img {
+        margin-top: -30px;
     }
 
     .dataMision img {
@@ -927,12 +937,11 @@ body {
 
     .card-group{
         display:block !important;
+    } 
+
+    .peliculas-slider {
+        width: calc(100% - 7%);
     }
-
-    
-
-
-
 
 }
 
